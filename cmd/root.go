@@ -2,13 +2,11 @@ package cmd
 
 import (
 	"fmt"
-<<<<<<< Updated upstream
-=======
 	"os"
 	"time"
 
->>>>>>> Stashed changes
 	"github.com/spf13/cobra"
+
 	"github.com/wannanbigpig/gin-layout/cmd/command"
 	"github.com/wannanbigpig/gin-layout/cmd/cron"
 	"github.com/wannanbigpig/gin-layout/cmd/server"
@@ -16,7 +14,6 @@ import (
 	"github.com/wannanbigpig/gin-layout/config"
 	"github.com/wannanbigpig/gin-layout/internal/global"
 	"github.com/wannanbigpig/gin-layout/internal/pkg/logger"
-	"os"
 )
 
 var (
